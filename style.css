@@ -15,9 +15,9 @@
 }
 .btnclearHistory{
     outline: none;
-
+    margin-bottom: 12px;
 }
 .clearHistry{
     margin-bottom: 12px;
-    border-bottom: 2px dashed #111;
+    border-bottom: 2px dashed #ccc;
 }
