@@ -6,7 +6,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+.body{
+    background-color: darkblue;
+}
 .dash-border{
     margin-bottom: 15px;
     border-bottom: 2px dashed #ccc;
+}
+.btnclearHistory{
+    outline: none;
+
+}
+.clearHistry{
+    margin-bottom: 12px;
+    border-bottom: 2px dashed #111;
 }
