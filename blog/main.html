@@ -37,7 +37,13 @@
                 <h2>What are the different ways to select an element in the DOM?</h2>
             </div>
             <div class="text-sm">
-                <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
+                <p>In Js we can select many way to select element in DOM (Document Object Model).   Such  as<br>
+                    1. document.getElementById() <br>
+                    2. getElementsByClassName() <br>
+                    3. getElementsByTagName() <br>
+                    4. querySelector() <br>
+                    5. querySelectorAll() <br>
+                </p>
             </div>
         </div>
         <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
@@ -45,7 +51,25 @@
                 <h2> What is the difference between innerHTML, innerText, and textContent ?</h2>
             </div>
             <div class="text-sm">
-                <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
+                <p>There are so many differences between innerHTML, innerText, and textContent <br> <br>
+                    
+                    1.innerHTML <br>
+                        => it return full html including all html tag <br>
+                            we can manipulate it easily <br>
+                            we can change html structure with js <br> <br>
+                    
+                    2. innerText <br> 
+                        => it return only visible text content inside an element and ignoring html tags <br>
+                        Ignores tags and hidden elements. <br>
+                        Slower than textContent because it considers styling and visibility. <br> <br>
+                    
+                    3.  textContent <br> 
+                        => it return all teh text content inside an element, including text and hidden elements. but dot return it html markup. <br>
+                        Doesn’t care about visibility or styling
+
+
+
+                </p>
             </div>
         </div>
         <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
@@ -53,7 +77,9 @@
                 <h2>What is event delegation in the DOM?</h2>
             </div>
             <div class="text-sm">
-                <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
+                <p>Event delegation is a DOM manipulating technique. That mean in event delegation first  <br> select the parent element with addEventListener After that  we can select the <br> multiple child element in the parent div. In this technique we don't declear  <br> addEventListener multiple time. We declear it's one's time but manipulating html <br> multiple time. Using the event.target property to figure out which child element <br> triggered the event.Event delegation is like hiring one manager (the parent listener) <br>
+                to handle all the workers (child elements) instead of giving each worker their own boss. <br>It’s efficient, scalable, and perfect for dynamic web apps.
+                </p>
             </div>
         </div>
         <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
@@ -61,7 +87,11 @@
                 <h2>What is event bubbling in the DOM?</h2>
             </div>
             <div class="text-sm">
-                <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
+                <p>
+                    
+                    Event bubbling is a process in the DOM (Document Object Model) where an event <br> that happens on an element doesn’t just stay there—it "bubbles up" through its parent <br> elements, step by step, all the way to the top of the DOM. It’s called <br> "bubbling" because it moves upward, similar to bubbles rising in water.
+
+                </p>
             </div>
         </div>
         <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
@@ -69,7 +99,21 @@
                 <h2>How do you create, add, and remove elements using JavaScript?</h2>
             </div>
             <div class="text-sm">
-                <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
+                <p>
+                    we can create elements like "add" and "remove" elements from the DOM (Document Object Model) using several way <br> <br>
+                    => Add element <br>
+                    1. document.createElement() <br>
+                    2. We can set Attributes <br>
+                    3. we can set inner content <br>
+                    4. we can added last child using append() method <br> <br>
+
+                    => Remove element <br>
+                    1. removeChild() method <br>
+                    2. remove() method <br>
+                    3. We can also using empty string like  "" <br>
+
+        
+                </p>
             </div>
         </div>
     </section>
