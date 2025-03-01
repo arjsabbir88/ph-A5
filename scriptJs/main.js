@@ -7,7 +7,7 @@ const completeBtn = document.querySelectorAll(".completeBtn");
 
 const blog = document.getElementById("blog");
 blog.addEventListener("click", function(){
-    window.location.href= "../blog/index.html";
+    window.location.href= "../blog/main.html";
 })
 
 for(let i = 0; i< completeBtn.length; i++){
