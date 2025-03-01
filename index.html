@@ -26,7 +26,7 @@
             <div class="flex items-center">
                 <div class="flex items-center bg-slate-300 w-20 h-10 rounded-full justify-center mr-4">
                     <img src="./assets/checkbox.png" alt="">
-                    <h3 class="ml-2 font-bold text-lg">23</h3>
+                    <h3 id="increaseNumber" class="ml-2 font-bold text-lg">23</h3>
                 </div>
                 <div class="h-10 w-10 rounded-full bg-slate-300 p-2 cursor-pointer" >
                     <img id="changeBg" src="./assets/theme-btn.png" alt="">
@@ -50,7 +50,7 @@
                         </div>
                         <div class="ml-3">
                             <p>Task Assigned</p>
-                            <h3>05</h3>
+                            <h3 id="decreaseNumber">06</h3>
                         </div>
                     </div>
                     <!-- discover something -->
@@ -58,7 +58,7 @@
                         <div>
                             <img src="./assets/board.png" alt="board_img">
                         </div>
-                        <div class="ml-3">
+                        <div id="blog" class="ml-3">
                             <h4>Discover Something</h4>
                             <h4>New Today!</h4>
                         </div>
@@ -86,7 +86,7 @@
                             <p>ShopEase</p>
                         </div>
                         <div class="font-bold mt-2">
-                            <h2>Fix Mobile Button Issue</h2>
+                            <h2 class="title">Fix Mobile Button Issue</h2>
                         </div>
                         <div class="bg-white p-3 w-60 text-sm rounded-lg my-3">
                             Debug using Chrome </br>
@@ -98,7 +98,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD]">Completed</button>
+                                <button class="btn bg-[#3752FD] completeBtn">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             <p>CloudSync</p>
                         </div>
                         <div class="font-bold mt-2">
-                            <h2>Add Dark Mode</h2>
+                            <h2 class="title">Add Dark Mode</h2>
                         </div>
                         <div class="bg-white p-3 w-60 text-sm rounded-lg my-3">
                             Store the user's preference in </br>
@@ -121,7 +121,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD]">Completed</button>
+                                <button class="btn bg-[#3752FD] completeBtn">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                             <p>SwiftPay</p>
                         </div>
                         <div class="font-bold mt-2">
-                            <h2>Optimize Home page</h2>
+                            <h2 class="title">Optimize Home page</h2>
                         </div>
                         <div class="bg-white p-3 w-60 text-sm rounded-lg my-3">
                             Debug Using Chrome </br>
@@ -144,7 +144,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD]">Completed</button>
+                                <button class="btn bg-[#3752FD] completeBtn">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                             <p>Meta</p>
                         </div>
                         <div class="font-bold mt-2">
-                            <h2>Add new emoji 👨</h2>
+                            <h2 class="title">Add new emoji 👨</h2>
                         </div>
                         <div class="bg-white p-3 w-60 text-sm rounded-lg my-3">
                             Debug using Chrome </br>
@@ -170,7 +170,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD]">Completed</button>
+                                <button class="btn bg-[#3752FD] completeBtn">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                             <p>Google LLC</p>
                         </div>
                         <div class="font-bold mt-2">
-                            <h2>Integrate OpenAI API</h2>
+                            <h2 class="title">Integrate OpenAI API</h2>
                         </div>
                         <div class="bg-white p-3 w-60 text-sm rounded-lg my-3">
                             Debug using Chrome </br>
@@ -193,7 +193,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD]">Completed</button>
+                                <button class="btn bg-[#3752FD] completeBtn">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                             <p>Glassdoar</p>
                         </div>
                         <div class="font-bold mt-2">
-                            <h2>Improve Job searching</h2>
+                            <h2 class="title">Improve Job searching</h2>
                         </div>
                         <div class="bg-white p-3 w-60 text-sm rounded-lg my-3">
                             Debug using Chrome </br>
@@ -217,7 +217,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD]">Completed</button>
+                                <button class="btn bg-[#3752FD] completeBtn">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -232,11 +232,11 @@
                         <p class="ml-2">Activity Log</p>
                     </div>
                     <div class="flex justify-center mt-3 clearHistry">
-                        <button class="btn bg-[#3752FD] btnclearHistory">Clear History</button>
+                        <button id="clearHistoryBtn" class="btn bg-[#3752FD] btnclearHistory">Clear History</button>
                     </div>
                 </div>
-                <div>
-
+                <div id="historyField">
+                    
                 </div>
             </div>
         </div>
@@ -246,5 +246,7 @@
     <!-- started functionality -->
     <script src="./scriptJs/date.js"></script>
     <script src="./scriptJs/changeBg.js"></script>
+    <script src="./scriptJs/main.js"></script>
+    <script src="./scriptJs/blog.js"></script>
 </body>
 </html>
