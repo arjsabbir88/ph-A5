@@ -23,13 +23,13 @@
                 <h1 class="text-xl ml-3 cursor-pointer">Dev<span class="font-bold">Board</span></h1>
             </div>
             <div class="flex items-center">
-                <button class="btn bg-[#3752FD]">Go Back</button>
+                <button id="devPage" class="btn bg-[#3752FD]">Go Back</button>
             </div>
         </div>
     </header>
 
     <section class="max-w-7xl mx-auto">
-        <div class="collapse bg-base-100 border p-4 border-base-300">
+        <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
             <div class="font-semibold">
                 <h2>How do I create an account?</h2>
             </div>
@@ -37,7 +37,7 @@
                 <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
             </div>
         </div>
-        <div class="collapse bg-base-100 border p-4 border-base-300">
+        <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
             <div class="font-semibold">
                 <h2>How do I create an account?</h2>
             </div>
@@ -45,7 +45,7 @@
                 <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
             </div>
         </div>
-        <div class="collapse bg-base-100 border p-4 border-base-300">
+        <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
             <div class="font-semibold">
                 <h2>How do I create an account?</h2>
             </div>
@@ -53,7 +53,7 @@
                 <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
             </div>
         </div>
-        <div class="collapse bg-base-100 border p-4 border-base-300">
+        <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
             <div class="font-semibold">
                 <h2>How do I create an account?</h2>
             </div>
@@ -61,7 +61,7 @@
                 <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
             </div>
         </div>
-        <div class="collapse bg-base-100 border p-4 border-base-300">
+        <div class="collapse bg-base-100 border p-4 border-base-300 my-3">
             <div class="font-semibold">
                 <h2>How do I create an account?</h2>
             </div>
@@ -70,5 +70,13 @@
             </div>
         </div>
     </section>
+
+
+    <script>
+        const devPage = document.getElementById("devPage");
+        devPage.addEventListener("click", function(){
+        window.location.href= "../index.html";
+        })
+    </script>
 </body>
 </html>

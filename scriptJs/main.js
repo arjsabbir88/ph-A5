@@ -3,6 +3,8 @@ let decreaseNumber = document.getElementById("decreaseNumber");
 const clearHistoryBtn = document.getElementById("clearHistoryBtn");
 let title = document.querySelectorAll(".title");
 const completeBtn = document.querySelectorAll(".completeBtn");
+
+
 const blog = document.getElementById("blog");
 blog.addEventListener("click", function(){
     window.location.href= "../blog/index.html";
