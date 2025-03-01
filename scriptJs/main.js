@@ -29,7 +29,16 @@ for(let i = 0; i< completeBtn.length; i++){
         let mint = getTime.getMinutes();
         let sec = getTime.getSeconds();
         let period = hour>= 12? "PM" : "AM";
-        hour = hour - 12;
+
+        mint = mint<10 ? "0" + mint: mint;
+        sec = sec<10 ? "0" + sec : sec;
+        
+        if ( hour > 12 ) {
+            hour = hour - 12;
+        } else if ( hour === 0 ) {
+            hour = 12;
+        }
+
         const presentTime = `${hour}:${mint}:${sec} ${period}`;
         const currentTitle = title[i].innerText; 
 
